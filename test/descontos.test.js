@@ -1,4 +1,4 @@
-import freteGratis from './src/index'
+const {freteGratis} = require('../src/index')
 
 test('Se é uma function', () => {
   expect(freteGratis).toBeInstanceOf(Function)

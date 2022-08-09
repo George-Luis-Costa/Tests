@@ -1,2 +1,3 @@
-export default freteGratis = valor => valor >= 150
+const freteGratis = valor => valor >= 150
+module.exports = {freteGratis
 
